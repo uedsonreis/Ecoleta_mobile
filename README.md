@@ -1,2 +1,2 @@
 # Ecoleta_mobile
-Mobile App desenvolvido em React Native para o projeto Ecoleta.
+Mobile App desenvolvido em React Native no projeto Ecoleta.
