@@ -38,7 +38,7 @@ export default function Detail() {
             <View style={styles.container}>
                 <BackButton navigation={navigation} />
 
-                <Image style={styles.pointImage} source={{ uri: point.image }} />
+                <Image style={styles.pointImage} source={{ uri: point.imageUrl }} />
                 <Text style={styles.pointName}>{point.name}</Text>
                 <Text style={styles.pointItems}>{actions.mapToText(point.items)}</Text>
 

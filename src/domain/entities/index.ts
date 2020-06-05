@@ -11,6 +11,7 @@ export interface Point {
     id: number
     name: string
     image: string
+    imageUrl: string
     email: string
     whatsapp: string
     latitude: number

@@ -78,7 +78,7 @@ export default function Points() {
                                     coordinate={{ latitude: Number(point.latitude), longitude: Number(point.longitude) }}
                                 >
                                     <View style={styles.mapMarkerContainer}>
-                                        <Image style={styles.mapMarkerImage} source={{ uri: point.image }} />
+                                        <Image style={styles.mapMarkerImage} source={{ uri: point.imageUrl }} />
                                         <Text style={styles.mapMarkerTitle}>{point.name}</Text>
                                     </View>
                                 </Marker>
